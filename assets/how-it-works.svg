@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 400" role="img" aria-label="An MCP client such as Claude signs the user in with Microsoft Entra ID, then calls PBI MCP on Firebase with that token. PBI MCP verifies the token and queries Power BI as a service principal, returning rows to the model.">
+  <defs>
+    <style>
+      .card { fill: #ffffff; stroke-width: 3; }
+      .title { font-family: 'General Sans', Arial, Helvetica, sans-serif; font-weight: 600; font-size: 21px; }
+      .sub { font-family: 'General Sans', Arial, Helvetica, sans-serif; font-size: 14px; fill: #4a4a4a; }
+      .code { font-family: ui-monospace, 'SF Mono', Consolas, monospace; font-size: 13px; }
+    </style>
+  </defs>
+
+  <!-- oat cream canvas -->
+  <rect x="0" y="0" width="960" height="400" rx="24" fill="#fff0e0"/>
+
+  <!-- entra id -->
+  <rect class="card" x="384" y="28" width="192" height="72" rx="16" stroke="#00a081"/>
+  <text class="title" x="480" y="60" text-anchor="middle" fill="#00725e">Entra ID</text>
+  <text class="sub" x="480" y="83" text-anchor="middle">your tenant · your users</text>
+
+  <!-- sign-in path: client to entra -->
+  <path d="M164,152 v-64 q0,-16 16,-16 h204" fill="none" stroke="#00a081" stroke-width="3" stroke-dasharray="1 9" stroke-linecap="round"/>
+  <text class="code" x="270" y="62" text-anchor="middle" fill="#00a081">① sign in</text>
+
+  <!-- verify path: function to entra keys -->
+  <path d="M520,152 v-52" fill="none" stroke="#00a081" stroke-width="3" stroke-dasharray="1 9" stroke-linecap="round"/>
+  <text class="code" x="604" y="132" text-anchor="middle" fill="#00a081">③ verify JWT</text>
+
+  <!-- mcp client -->
+  <rect class="card" x="48" y="152" width="232" height="116" rx="16" stroke="#00725e"/>
+  <text class="title" x="164" y="202" text-anchor="middle" fill="#00725e">Claude</text>
+  <text class="sub" x="164" y="228" text-anchor="middle">or any MCP client</text>
+
+  <!-- arrow 1 -->
+  <line x1="280" y1="210" x2="384" y2="210" stroke="#00725e" stroke-width="3" stroke-linecap="round"/>
+  <path d="M384,210 l-12,-7 v14 z" fill="#00725e"/>
+  <text class="code" x="332" y="190" text-anchor="middle" fill="#00725e">② tool call</text>
+  <text class="code" x="332" y="236" text-anchor="middle" fill="#00725e">+ token</text>
+
+  <!-- pbi mcp -->
+  <rect x="396" y="152" width="248" height="116" rx="16" fill="#00725e"/>
+  <text class="title" x="520" y="196" text-anchor="middle" fill="#ffffff">PBI MCP</text>
+  <text class="sub" x="520" y="222" text-anchor="middle" style="fill:#e7f4ed">Firebase Hosting → Function</text>
+  <text class="code" x="520" y="246" text-anchor="middle" fill="#6ecd96">8 tools · stateless</text>
+
+  <!-- arrow 2 -->
+  <line x1="644" y1="210" x2="748" y2="210" stroke="#00725e" stroke-width="3" stroke-linecap="round"/>
+  <path d="M748,210 l-12,-7 v14 z" fill="#00725e"/>
+  <text class="code" x="696" y="190" text-anchor="middle" fill="#00725e">④ DAX</text>
+  <text class="code" x="696" y="236" text-anchor="middle" fill="#00725e">as SP</text>
+
+  <!-- power bi -->
+  <rect class="card" x="760" y="152" width="152" height="116" rx="16" stroke="#00a081"/>
+  <text class="title" x="836" y="200" text-anchor="middle" fill="#00725e">Power BI</text>
+  <text class="code" x="836" y="228" text-anchor="middle" fill="#00a081">semantic</text>
+  <text class="code" x="836" y="246" text-anchor="middle" fill="#00a081">models</text>
+
+  <!-- rows return -->
+  <path d="M836,268 v40 q0,16 -16,16 h-640 q-16,0 -16,-16 v-40" fill="none" stroke="#00a081" stroke-width="3" stroke-dasharray="1 9" stroke-linecap="round"/>
+  <path d="M164,268 l-7,12 h14 z" fill="#00a081"/>
+  <text class="sub" x="480" y="354" text-anchor="middle" fill="#00725e">⑤ rows come back as JSON — the model writes the DAX and reads the answer</text>
+</svg>

@@ -1,0 +1,26 @@
+# dependencies & build output
+node_modules/
+functions/lib/
+
+# local config and secrets — never commit these
+.env
+.env.*
+!.env.example
+functions/.env
+functions/.env.*
+!functions/.env.example
+.secret.local
+functions/.secret.local
+.runtimeconfig.json
+
+# firebase
+.firebase/
+.firebaserc
+firebase-debug.log*
+ui-debug.log*
+
+# os / editor
+.DS_Store
+.idea/
+.vscode/
+*.log
