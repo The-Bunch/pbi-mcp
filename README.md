@@ -12,10 +12,10 @@ and it explores your datasets, writes the DAX and reads you the answer — signe
 your Microsoft account and running on Firebase in about fifteen minutes.
 
 ![release](https://img.shields.io/badge/release-v1.0.0-00725e)
-![node](https://img.shields.io/badge/node-22-6ecd96)
+![node](https://img.shields.io/badge/node-22-3e8e68)
 ![mcp](https://img.shields.io/badge/MCP-streamable%20HTTP-00a081)
 ![auth](https://img.shields.io/badge/auth-Entra%20ID%20%2B%20PKCE-00725e)
-![deploy](https://img.shields.io/badge/deploy-Firebase-6ecd96)
+![deploy](https://img.shields.io/badge/deploy-Firebase-3e8e68)
 ![licence](https://img.shields.io/badge/licence-MIT-00725e)
 
 [hellobill.com](https://hellobill.com) · [Deploy it](#deploy-to-firebase) · [How it works](#how-it-works) · [Sibling repos](https://github.com/The-Bunch)
@@ -430,7 +430,7 @@ and keep the logs free of tokens and data.
 
 ## Licence
 
-[MIT](LICENSE) © Hello Bill. Power BI, Microsoft Entra ID and Fabric are
+[MIT](LICENSE) © Hello Bill Limited. Power BI, Microsoft Entra ID and Fabric are
 trademarks of Microsoft; Firebase is a trademark of Google; Claude is a trademark of
 Anthropic. This project isn't affiliated with or endorsed by any of them.
 

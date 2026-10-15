@@ -2,14 +2,14 @@
   <defs>
     <style>
       .card { fill: #ffffff; stroke-width: 3; }
-      .title { font-family: 'General Sans', Arial, Helvetica, sans-serif; font-weight: 600; font-size: 21px; }
-      .sub { font-family: 'General Sans', Arial, Helvetica, sans-serif; font-size: 14px; fill: #4a4a4a; }
+      .title { font-family: 'Bricolage Grotesque', 'Inter', Arial, Helvetica, sans-serif; font-weight: 700; font-size: 21px; }
+      .sub { font-family: 'Inter', Arial, Helvetica, sans-serif; font-size: 14px; fill: #456258; }
       .code { font-family: ui-monospace, 'SF Mono', Consolas, monospace; font-size: 13px; }
     </style>
   </defs>
 
   <!-- oat cream canvas -->
-  <rect x="0" y="0" width="960" height="400" rx="24" fill="#fff0e0"/>
+  <rect x="0" y="0" width="960" height="400" rx="24" fill="#f8f2ea"/>
 
   <!-- entra id -->
   <rect class="card" x="384" y="28" width="192" height="72" rx="16" stroke="#00a081"/>
