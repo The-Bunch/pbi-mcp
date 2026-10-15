@@ -2,7 +2,7 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/The-Bunch/.github/main/profile/assets/hellobill-logo-inverse.svg">
-  <img src="https://raw.githubusercontent.com/The-Bunch/.github/main/profile/assets/hellobill-logo-primary.svg" alt="hellobill" width="320">
+  <img src="https://raw.githubusercontent.com/The-Bunch/.github/main/profile/assets/hellobill-logo-primary.svg" alt="helloBill" width="320">
 </picture>
 
 ### Your numbers, sorted.
@@ -26,7 +26,7 @@ your Microsoft account and running on Firebase in about fifteen minutes.
 
 ## Why this exists
 
-At [hellobill](https://hellobill.com) we set up people's whole home — energy, water,
+At [helloBill](https://hellobill.com) we set up people's whole home — energy, water,
 council tax, broadband — and every one of those journeys leaves numbers behind. Ours
 end up in a dbt warehouse, published to Power BI. Power BI is great at dashboards. It
 is less great at the question nobody built a dashboard for, asked at 7:40 on a
@@ -430,12 +430,12 @@ and keep the logs free of tokens and data.
 
 ## Licence
 
-[MIT](LICENSE) © The Bunch Group. Power BI, Microsoft Entra ID and Fabric are
+[MIT](LICENSE) © Hello Bill. Power BI, Microsoft Entra ID and Fabric are
 trademarks of Microsoft; Firebase is a trademark of Google; Claude is a trademark of
 Anthropic. This project isn't affiliated with or endorsed by any of them.
 
 ---
 
 <div align="center">
-<sub>Made by <a href="https://hellobill.com">hellobill</a> · your life admin, sorted · operated by The Bunch Group</sub>
+<sub>Made by <a href="https://hellobill.com">helloBill</a> · your life admin, sorted</sub>
 </div>
